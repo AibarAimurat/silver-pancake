@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Класс</title>
+  <style>
+    /* Стили для фона */
+    body {
+      background-image: url("https://top-fon.com/uploads/posts/2023-02/1675362388_top-fon-com-p-fon-dlya-prezentatsii-bibliotekarya-67.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Стили для всего раздела учеников */
+    .students {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 50px 0;
+    }
+
+    /* Стили для ученика */
+    .student {
+      width: 250px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* Стили для фотографии учеников */
+    .student-photo {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    /* Стили для описания учеников */
+    .student-description {
+      text-align: center;
+    }
+
+    /* Стили для заголовков учеников */
+    .student-description h3 {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    /* Стили для параграфа учеников */
+    .student-description p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    /* Анимация при наведении на учеников */
+    .student:hover {
+      background-color: #e0e0e0;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="students">
+    <div class="student">
+      <img class="student-photo" src="C:\Users\Админ\Downloads\WhatsApp Image 2024-02-17 at 17.43.04.jpeg" alt="Ихсан Дана" width="200">
+      <div class="student-description">
+        <h3>Ихсан Дана</h3>
+        <p>Мысықтарды жақсы көреді.</p>
+      </div>
+    </div>
+    <div class="student">
+      <img class="student-photo" src="C:\Users\Админ\Downloads\WhatsApp Image 2024-02-17 at 17.42.20.jpeg" alt="Зинулла Ернур" width="200">
+      <div class="student-description">
+        <h3>Зинулла Ернур</h3>
+        <p>Бос уақытында кітап оқиды.</p>
+      </div>
+    </div>
+    <div class="student">
+      <img class="student-photo" src="C:\Users\Админ\Downloads\WhatsApp Image 2024-02-17 at 17.41.59.jpeg" alt="Меллятова Сабина" width="200">
+      <div class="student-description">
+        <h3>Меллятова Сабина</h3>
+        <p>140-қа қатысады.</p>
+      </div>
+    </div>
+    <!-- Добавьте больше учеников -->
+  </div>
+</body>
+</html>
